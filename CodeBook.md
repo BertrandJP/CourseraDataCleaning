@@ -12,7 +12,7 @@ We will only use 5 types of files from the dataset (fixed length files):
 5. features.txt, that contains the name of all the variables contained in the x_test and x_traib files
 
 We will generate only one output file (coma delimited file):
-1) result.txt, that contains the mean values by subject / activity of all the variables that correspond to mean ans standard deviation measures
+1. result.txt, that contains the mean values by subject / activity of all the variables that correspond to mean ans standard deviation measures
 
 ### Code Book: Variables description
 
