@@ -5,11 +5,11 @@ This program reads data from UCI HAR Dataset. It merges train and test data. It 
 ### Code Book: Files description
 
 We will only use 5 types of files from the dataset (fixed length files):
-1) test/x_test.txt and train/subject/x_train.txt, that contains all the individual observations
-2) test/subject_test.txt and train/subject_train.txt, that contains the subject IDs associated to each observation
-3) test/y_test.txt and train/subject/y_train.txt, that contains the activity IDs associated to each observation
-4) activity_labels.txt, that gives the signification of activity IDs contained in the y_test and y_train files
-5) features.txt, that contains the name of all the variables contained in the x_test and x_traib files
+1. test/x_test.txt and train/subject/x_train.txt, that contains all the individual observations
+2. test/subject_test.txt and train/subject_train.txt, that contains the subject IDs associated to each observation
+3. test/y_test.txt and train/subject/y_train.txt, that contains the activity IDs associated to each observation
+4. activity_labels.txt, that gives the signification of activity IDs contained in the y_test and y_train files
+5. features.txt, that contains the name of all the variables contained in the x_test and x_traib files
 
 We will generate only one output file (coma delimited file):
 1) result.txt, that contains the mean values by subject / activity of all the variables that correspond to mean ans standard deviation measures
